@@ -4,7 +4,7 @@ import supervision as sv
 from ultralytics import YOLO
 
 # Load the YOLO model
-model = YOLO('YoloModel/best.pt')
+model = YOLO("E:/Documents/Codes/Python/GCNN Object Detection/YoloModel/best.pt")
 
 # Initialize the webcam
 cap = cv2.VideoCapture(0)
